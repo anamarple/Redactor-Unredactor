@@ -1,0 +1,19 @@
+
+var ftGUID_2451641="32725A6FE3700D";
+var ftConfID_2451641="0";
+var ftParams_2451641="ftx=&fty=&ftadz=&ftscw=&ft_custom=1226364______www.thehindu.com&ftOBA=1&ft_ifb=1&ft_domain=www.thehindu.com&ft_agentEnv=0&ft_referrer=http%3A%2F%2Fwww.thehindu.com%2F&cachebuster=732697.5924485272";
+var ftKeyword_2451641="";
+var ftCustom_2451641="1226364______www.thehindu.com";
+var ftSection_2451641="";
+var ftSegment_2451641="oub,o2t,pfi,jrk";
+var ftSegmentList_2451641=[{s:'oub'},{s:'o2t'},{s:'pfi'},{s:'jrk'}];
+var ftRuleMatch_2451641="0";
+var ftTimestamp_2451641="1492992232";
+var ftImp2451641 = {};
+ftImp2451641.privacy = "x";
+ftImp2451641.guidAge = "129";
+ftImp2451641.impID = "3401CE66FD0FA8";
+
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/245/2451641/1780404/js/j-2451641-1780404.js" id="ftscript_m2451641" name="ftscript_m2451641"></scr'+'ipt>');
+                    

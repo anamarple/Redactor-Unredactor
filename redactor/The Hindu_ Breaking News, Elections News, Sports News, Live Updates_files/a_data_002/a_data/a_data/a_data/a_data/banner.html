@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"><!-- HTML 5 Ad Template for DoubleClick Studio by FCB-Chicago --><head>
+	<title>Cox Banner</title>
+	<!-- Studio Enabler Required -->
+	<script src="banner_data/Enabler_01_145.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+    
+	<style type="text/css">
+	#loading {
+		width:100%;
+		height:100%;
+		background-color:white;
+		z-index:10;
+	}
+	#loadingImage {
+		position:absolute;
+		left:50%;
+		margin-left:-15px;
+		top:50%;
+		margin-top:-15px;
+	}
+	#container {
+		display:none;
+		z-index:20;
+	}
+	</style>
+    
+    <script>
+		//Initialize Enabler
+		if (Enabler.isInitialized()) {
+			init();
+		}
+		else {
+			Enabler.addEventListener(studio.events.StudioEvent.INIT, init);
+		}
+		//Run when Enabler is ready
+		function init() {			
+			if(Enabler.isPageLoaded()) {
+				politeInit();
+			} else {
+				Enabler.addEventListener(studio.events.StudioEvent.PAGE_LOADED, politeInit);
+			} 
+		}
+		
+		function politeInit() {		
+			//Load in Javascript
+			var extJavascript = document.createElement("script");
+			extJavascript.setAttribute("type", "text/javascript");
+			extJavascript.setAttribute("src", Enabler.getUrl("banner.js")); 
+			document.getElementsByTagName("head")[0].appendChild(extJavascript); 
+			
+			//Load in CSS
+			var extCSS=document.createElement("link");
+			extCSS.setAttribute("rel", "stylesheet");
+			extCSS.setAttribute("type", "text/css");
+			extCSS.setAttribute("href", Enabler.getUrl("banner.css")); 
+			document.getElementsByTagName("head")[0].appendChild(extCSS);
+			document.getElementById("container").style.opacity=1;
+			document.getElementById("loadingImage").style.opacity=0;
+		}
+	</script> 
+    	    
+<script type="text/javascript" src="https://s0.2mdn.net/ads/richmedia/studio/pv2/45711180/20161129111650070/banner.js"></script><link rel="stylesheet" type="text/css" href="https://s0.2mdn.net/ads/richmedia/studio/pv2/45711180/20161129111650070/banner.css"><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script></head>
+<body>
+	<div id="loading"><!-- Loading Animation -->
+        <div id="loadingImage" style="opacity: 0;">
+               <img src="banner_data/loading_dcs.gif">
+        </div>    
+    </div>
+    
+    <div id="container" style="opacity: 1; display: block;">
+        <div id="content">
+			<div id="backgroundBlue" class="divImage" style="visibility: inherit; opacity: 1;"></div>
+			<div id="textCoxGives" class="divImage" style="visibility: hidden; opacity: 0; top: 90px; left: 0px;"></div>
+			<div id="devices" class="divImage" style="visibility: hidden; opacity: 0;"></div> 
+ 			<div id="textNewContour" class="divImage" style="visibility: hidden; opacity: 0; top: 90px; left: 0px;"></div> 
+ 			<div id="devicesContour" class="divImage" style="visibility: hidden; opacity: 0; top: 0px; left: 428px;"></div> 
+ 			<div id="textFast" class="divImage" style="visibility: inherit; opacity: 1; top: 0px; left: 0px;"></div> 
+ 			<div id="laptop" class="divImage" style="visibility: inherit; opacity: 1; top: 0px; left: 0px;"></div> 
+ 			<div id="textInstall" class="divImage" style="visibility: hidden; opacity: 0;"></div> 
+ 			<div id="iconInstall" class="divImage" style="visibility: hidden; opacity: 0;"></div> 
+ 			<div id="paperRipRight" class="divImage" style="visibility: hidden; opacity: 0;"></div> 
+ 			<div id="paperRipLeft" class="divImage" style="visibility: hidden; opacity: 0;"></div> 
+ 			<div id="backgroundGray" class="divImage" style="visibility: hidden; opacity: 0;"></div>
+			<div id="textNoContract" class="divImage" style="visibility: hidden; opacity: 0;"></div> 
+ 			<div id="textTitle" class="divImage" style="visibility: hidden; opacity: 0;"></div> 
+			<div id="textPrice" class="divImage" style="visibility: hidden; opacity: 0;"></div> 
+			<div id="footer" style="visibility: inherit; opacity: 1;">
+				<div id="ctaSheenGroup">
+					<svg width="128" height="45" baseProfile="full" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+						<defs>
+							<mask id="ctaSheenMask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+								<image id="ctaSheenMaskImage" x="0" y="0" width="128" height="45" xlink:href="cta_rect.png?w=128" filter="url(#filterWhite)"></image>
+							</mask>
+						</defs>
+						<image id="ctaSheen" mask="url(#ctaSheenMask)" width="101" height="50" y="0" x="130" xlink:href="sheen_white.png" style="opacity: 0.5;"></image>
+						<filter id="filterWhite">
+							<feFlood flood-color="white"></feFlood>
+							<feComposite in2="SourceAlpha" operator="in"></feComposite>
+						</filter>									
+					</svg>
+				</div>						 
+			</div>
+			<div id="bannerButton"></div>
+			<div id="replayButton" class="divImage" style="visibility: hidden; opacity: 0;"></div> 
+		</div>
+	</div>
+
+</body></html>

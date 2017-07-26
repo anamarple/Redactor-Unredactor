@@ -1,0 +1,16 @@
+OX_mNHB_5503481250({
+  "ads":{
+    "medium":"w",
+    "record_tmpl":"https://medianet-d.openx.net/{medium}/1.0/{rtype}?bi=234ae6fe-26e9-48dc-b0f4-c6b39d228e00&ba=1491241476&ts={txn_state}",
+    "oxt": 176.666,
+    "adunits" : [
+      {
+        "auid":"538163562",
+        "chain_revenue":"",
+        "size":"300x250",
+        "chain":[
+        ]
+      }
+    ]
+  }
+});

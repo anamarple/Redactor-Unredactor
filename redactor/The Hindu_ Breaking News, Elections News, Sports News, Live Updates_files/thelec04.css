@@ -1,0 +1,158 @@
+/*Over all Viz CSS*/
+.election-viz { width:920px; background-color: #e8e8e8;height: 558px; margin-bottom: 15px;}
+  .viz-footer p{ font-size: 0.9em;}
+
+#pie-up, #pie-pu, #pie-go, #pie-uk, #pie-ma { margin-bottom: 10px; }
+
+.chart-panel{ width: 229px; height: 320px; background-color: #fff;
+    float: left; margin-right: 23px; padding: 10px 12px; }
+    .chart-panel:last-child{margin-right: 0 !important;}
+
+    .chart-panel .section-heading { font-size: 22px; color: #143B5A; line-height: 28px;}
+
+/*For Map Path*/
+.constituency{ fill:#ccc; stroke:#333; stroke-width:0.3; }
+.empty-color{ fill:#FFF; stroke:#333; stroke-width:0.3; }
+path:hover { fill: #ccc; opacity: 0.8; stroke:#333; stroke-width:0.5;}
+.hidden { display: none; }
+.tooltip { position: absolute; z-index: 1000; background-color: #333;
+border-radius: 10px; color: #fff; padding: 5px; }
+
+/*Table CSS*/
+tbody > tr:nth-of-type(odd) {
+  background-color: none;
+}
+.table-cont {height: 296px; overflow-x: hidden; overflow-y: auto; }
+.table-cont th, .table-cont td { padding: 5px; width:15%; }
+.table-cont th:first-child, .table-cont td:first-child { padding: 5px; width:55%; }
+.table-cont th { font-size: 10px;background-color: #133B5A; color: #fff; text-transform: capitalize;}
+.table-cont td { font-size: 10px;padding: 5px;}
+.table-cont td:first-child { text-transform: uppercase; }
+.table-cont td:first-child > span { width:10px; height: 10px; display: inline-block; margin-right: 5px; margin-top: 3px; float:left; }
+
+.chart-panel .table-cont {height: 150px; overflow-x: hidden; overflow-y: auto;}
+.chart-panel .table-cont td:first-child {width 40%;}
+.chart-panel .table-cont td:nth-child(2) {width 20%;}
+.chart-panel .table-cont td:nth-child(3) {width 20%;}
+.chart-panel .table-cont td:nth-child(4) {width 20%;}
+
+#purpose {padding: 2px 10px; font-size: 1.2em;}
+#purpose-tab-left, #purpose-tab-right {font-size: 27px!important; right: 10px;  display: block;
+    height: 25px; width: 25px;color: #f5f5f5;  background-color: #aaa; border-radius: 100%;  text-align: center; line-height: 23.5px;
+    padding-left: 3px;  z-index: 1; cursor: pointer;}
+
+#purpose-tab-left i{ margin-top: -7px;   margin-left: 3px;}
+#purpose-tab-right i  { margin-top: -7px;   margin-left: 6px;}
+
+
+/*All Party colors for svg path*/
+    .praja {fill:#466D1E;}
+    .bjp, .n {fill:#ff7f00;}
+    .inc {fill:#1f78b4;}
+    .npf {fill:#28166F;}
+    .ads {fill:#FFA578;}
+    .ad {fill:#3CEC97;}
+    .aimeium {fill:#AEF35A;}
+    .sbjp {fill:#DDA266;}
+    .gvp {fill:#FFEE75;}
+    .mgp, .mg {fill:#D96125;}
+    .bsp {fill:#22409A;}
+    .sp, .s {fill: #FA0A0B;}
+    .sad {fill: #9b59b6;}
+    .aitc {fill:#33a02c;}
+    .ncp {fill: #f1c40f;}
+    .cpi, .cpoi, .la, .ldf {fill:#e74c3c;}
+    .cpim, .cpoim { fill: #c0392b;}
+    .npf, .npsf {fill:#28166F;}
+    .gsm {fill:#EC4C25;}
+    .rmpoi { fill: #8B0000;}
+    .cpiml, .cpoiml { fill: #8B0000;}
+    .rld {fill: #ABC892;}
+    .jdu {fill: #FF6289;}
+    .aimim {fill: #16A085;}
+    .ljp, .ljsp { fill: #A8CE3B;}
+    .ss{ fill:#F39C12}
+    .s { fill:#FA0A0B}
+    .aap {fill:#a6cee3;}
+    .i, .ind { fill: #e1b397;}
+    .pp, .prja, .p {fill:#b15928;}
+    .ukd {fill: #9b59b6;}
+	.mndf {fill:#FF7B7B;}
+
+
+    /*Undeclared constituencies*/
+    .u, .undeclared {fill:#fff; stroke:#333; stroke-width:0.5px;}
+
+    /*Total*/
+    .t, .total { background-color: #e8e8e8;}
+    .t td , .total td { font-weight: bold; }
+    .t td span , .total td  { display:none !important;}
+
+    /*others*/
+    .others, .o, .mscp{fill:#95a5a6;}
+    .others td:first-child > span, .o td:first-child > span, .ad td:first-child > span, .aimeium td:first-child > span, .sbjp td:first-child > span, .ads td:first-child > span, ..mscp td:first-child > span {background-color:#95a5a6;}
+
+    /*Alliance Seperator - UP*/
+    #jsontable-up .inc{border-bottom: 1px solid #333;}
+
+
+    /*Alliance Tabbed - UP*/
+    #jsontable-up .sp td:first-child,  #jsontable-up .inc td:first-child,   #jsontable-up .i td:first-child{ padding-left: 12px; }
+
+    /*All Party colors for Table legend*/
+    /*All Alliance Data*/
+    .s td:first-child > span {background-color:#FA0A0B;}
+    .n td:first-child > span {background-color:#ff7f00;}
+    .m td:first-child > span {background-color:#D96125;}
+
+    /*Other Parties*/
+    .others td:first-child > span, .o td:first-child > span {background-color:#95a5a6;}
+    .ad td:first-child > span {background-color:#3CEC97;}
+    .aimeium td:first-child > span {background-color:#AEF35A;}
+    .praja td:first-child > span {background-color:#466D1E;}
+    .ldf td:first-child > span {background-color:#e74c3c;}
+    .ads td:first-child > span{background-color:#FFA578;}
+    .sbjp td:first-child > span{background-color:#DDA266;}
+    .mndf td:first-child > span {background-color:#FF7B7B;}
+    .npf td:first-child > span, .npsf td:first-child > span  {background-color:#28166F;}
+    .gsm td:first-child > span {background-color:#EC4C25;}
+    .ukd td:first-child > span {background-color: #9b59b6;}
+    .mad td:first-child > span {background-color:#9b59b6;}
+    .mgp td:first-child > span, .mg td:first-child > span{background-color:#D96125;}
+    .gvp td:first-child > span {background-color:#FFEE75;}
+    .bjp td:first-child > span {background-color:#ff7f00;}
+    .inc td:first-child > span {background-color:#1f78b4;}
+    .bsp td:first-child > span {background-color:#22409A;}
+    .sp td:first-child > span {background-color: #FA0A0B;}
+    .sad td:first-child > span {background-color: #9b59b6;}
+    .aitc td:first-child > span {background-color:#33a02c;}
+    .ncp td:first-child > span {background-color: #f1c40f;}
+	.cpiml , .cpoiml td:first-child > span { background-color: #8B0000;}
+    .cpi td:first-child > span, .cpoi td:first-child > span, .la td:first-child > span {background-color:#e74c3c;}
+    .cpim td:first-child > span, .cpoim td:first-child > span { background-color: #c0392b;}
+    .rmpoi td:first-child > span { background-color: #8B0000;}
+    .rld td:first-child > span {background-color: #ABC892;}
+    .jdu td:first-child > span {background-color: #FF6289;}
+    .aimim td:first-child > span {background-color: #16A085;}
+    .ljp td:first-child > span, .ljsp td:first-child > span { background-color: #A8CE3B;}
+    .ss td:first-child > span{ background-color:#F39C12}
+    .aap td:first-child > span {background-color:#a6cee3;}
+    .i td:first-child > span, .ind td:first-child > span { background-color: #e1b397 ;}
+    .pp td:first-child > span, .prja td:first-child > span, .p td:first-child > span {background-color:#b15928;}
+
+@media (max-width: 767px) and (min-width: 1px) {
+  .election-viz { width:100% !important; height:auto !important; padding:0 20px;}
+  .chart-panel{ width: 100% !important;  height: auto !important; margin-right: 18px !important; margin-bottom:18px; }
+  .table-cont {height:190px !important;}
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  #map {    margin-top: 12% !important;}
+  .election-viz { width:768px !important; height:522px;}
+    .chart-panel{ width: 225px !important; height: 300px;margin-right: 18px !important; margin-bottom:18px; }
+}
+@media (max-width: 1599px) and (min-width: 1023px) {
+  #map {    margin-top: 12% !important;}
+  .election-viz { width:660px !important;}
+    .chart-panel{ width: 310px !important; height: 300px;margin-right: 16px !important;}
+.chart-panel .table-cont {height: 105px;overflow-x: hidden; overflow-y: auto;}
+}

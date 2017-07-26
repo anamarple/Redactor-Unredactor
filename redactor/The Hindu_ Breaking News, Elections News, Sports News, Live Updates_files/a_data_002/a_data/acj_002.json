@@ -1,0 +1,29 @@
+OX_2275956968({
+  "ads":{
+    "chain":1,
+    "medium":"w",
+    "record_tmpl":"http://uk-ads.openx.net/{medium}/1.0/{rtype}?ts={txn_state}",
+    "pixels":"http://eu-u.openx.net/w/1.0/pd?plm=6&ph=50ab0170-10fc-4aec-b816-8e01043433e7",
+    "oxt": 429.837,
+    "adunits" : [
+      {
+        "auid":"538212987",
+        "chain_timeout":"",
+        "chain":[
+          {
+            "is_fallback":1,
+            "ad_id":"0",
+            "adv_acct_id":"",
+            "width":"728",
+            "height":"90",
+            "html":"<script type=\"text/javascript\">/*2.1.20160208*/var _tag_id=\"16275\",_cur_protocol=\"https:\"==location.protocol?\"https:\":\"http:\",_pb_url=_cur_protocol+\"//ads.deliverimp.com/pb?size=728x90\"+(\"\"==_tag_id?\"\":\"&ta=\"+_tag_id);try{var __compassImpData=__compassImpData||parent.__compassImpData||parent.parent.__compassImpData||void 0;void 0!==__compassImpData&&(_pb_url=_cur_protocol+\"//\"+__compassImpData.domain+\"/pb?iid=\"+__compassImpData.iid)}finally{_pb_url+=\"&cb=\"+Math.floor(2147483647*Math.random()),document.write(\"<script type='text/javascript' src='\"+_pb_url+\"'></scr\"+\"ipt>\")}</script>",
+            "target":"_blank",
+            "ts":"1fHJpZD1kYTgxYjAzOC02NzQ5LTQzMTAtYjYxMS01Y2M3OGE5ZTM0MzF8cnQ9MTQ5Mjk5MjI5NHxhdWlkPTUzODIxMjk4N3xhdW09RE1JRC5XRUJ8YXVwZj1kaXNwbGF5fHNpZD01MzcyMzQzMjJ8cHViPTE0MDM1M3xwYz1VU0R8cmFpZD1kMWE5YzI5Mi04NTk5LTQ5ZjUtOWU3YS03OGMwOGFlMzJkNzF8cnM9MXx1cj1BVkRsTkVJNVNn",
+            "type":"html",
+            "ad_url":"<script type=\"text/javascript\">/*2.1.20160208*/var _tag_id=\"16275\",_cur_protocol=\"https:\"==location.protocol?\"https:\":\"http:\",_pb_url=_cur_protocol+\"//ads.deliverimp.com/pb?size=728x90\"+(\"\"==_tag_id?\"\":\"&ta=\"+_tag_id);try{var __compassImpData=__compassImpData||parent.__compassImpData||parent.parent.__compassImpData||void 0;void 0!==__compassImpData&&(_pb_url=_cur_protocol+\"//\"+__compassImpData.domain+\"/pb?iid=\"+__compassImpData.iid)}finally{_pb_url+=\"&cb=\"+Math.floor(2147483647*Math.random()),document.write(\"<script type='text/javascript' src='\"+_pb_url+\"'></scr\"+\"ipt>\")}</script>"
+          }
+        ]
+      }
+    ]
+  }
+});

@@ -1,0 +1,49 @@
+from redactor import redactor
+
+test="I have exam on 31-10-2016 and my date of birth is 23/10/1995"
+
+def test_function():
+    (x,c)=redactor.dates(test)
+    d=sorted(c)
+    assert ==['23/10/1995', '31-10-2016']
+
+
+'''
+
+def get_output(data,file_name):
+    import os
+    f_name=file_name
+    f_name=f_name.replace(".html",".txt")
+    os.system("touch {0}".format(f_name))
+    with open(f_name,'w',encoding="utf-8")as file:
+        file.write(data)
+        file.close()
+    fi_name=f_name.replace(".txt",".pdf")
+    '''
+    count_redactedFiles=0
+    count_redactedHtmlFiles=len(html_files)
+    count_redactedTextFiles=len(text_files)
+    count_redactedFiles=count_redactedHtmlFiles+count_redactedTextFiles
+    #os.system("mkdir {0}".format(loc))
+    '''
+    '''    
+    for i in range(0,count_redactedHtmlFiles):
+        f_name=''
+        f_name=html_files[i]
+        f_name=f_name.replace(".html",".pdf")
+        #os.system("enscript my_text_file.txt -o - | ps2pdf - output.pdf")
+        os.system("enscript {0} -o - | ps2pdf - {1}/{2}".format(html_files[i],loc,f_name))
+    for i in range(0,count_redactedTextFiles):
+        #os.system("enscript my_text_file.txt -o - | ps2pdf - output.pdf")
+        os.system("enscript {0} -o - | ps2pdf - {1}/{2}".format(text_files[i],loc,))
+    '''
+    loc=output_commands
+    os.system("enscript {0} -o - | ps2pdf - {1}/{2}".format(f_name,loc,fi_name))
+    Stats=''
+    Stats=("The total number of redacted Files are {0} in which Html files count is {1} and Text files count is {2}".format(count_redactedFiles,count_redactedHtmlFiles,count_redactedTextFiles))
+    return(glob.glob("{0}/*.pdf".format(loc)))
+
+
+
+
+'''

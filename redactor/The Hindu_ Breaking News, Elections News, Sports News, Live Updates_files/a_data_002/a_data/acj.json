@@ -1,0 +1,30 @@
+OX_5875322769({
+  "ads":{
+    "chain":1,
+    "medium":"w",
+    "record_tmpl":"http://uk-ads.openx.net/{medium}/1.0/{rtype}?ts={txn_state}",
+    "pixels":"http://eu-u.openx.net/w/1.0/pd?plm=6&ph=50ab0170-10fc-4aec-b816-8e01043433e7",
+    "oxt": 313.436,
+    "adunits" : [
+      {
+        "auid":"538798781",
+        "chain_timeout":"1000",
+        "chain":[
+          {
+            "is_fallback":0,
+            "framed":1,
+            "ad_id":"537153267",
+            "adv_acct_id":"537073294",
+            "width":"728",
+            "height":"90",
+            "html":"<script src='http://presentation-atl1.turn.com/server/ads2.js?pub=6552283&cch=6553230&code=6554547&l=728x90&aid=41410767&ahcid=17288782&uimpd=1uMWS3GE1Z5FU8jXLOe-YryIgpMiJR_Uhnq9euF_V84WQMZuKk6NqgSeCEsFFKnoimc7zkPZlhD6lNvnAK9KEHgVUaa81rE5Va5TPoJV_1Ntn4-ZNPeiesLCUWGi5Q0pMIlxWeHujtiWU4hIRmxZhGDbLcisF5vf52pYjnxx7sgLDq60qaLSM9lSDH_P7r3m2LfHLNhuhT3pi82fEsIKY-zMcLaIqUa9FRu7ru1ABYiORZUuQDEm47i1Tivv6J5HiUDGfolDxxEeK_aGp_BGcLj_qiTZAlqmIP_WgyKecHdMe6wRAUWXXt4cjHDg7-u3hvyplQoRI8iPPMO05KAj12dmamRRrDZEp34NLDky0qzwXwQsSlpxKWOwnR4ICWD6HdrFQCSJfBZVFiNz3B_dJ1WZ697-I3CaWNS3vdVtxa4jAMWh5QL9L8PJYZis-j0gHJuBxhlEEZ3axJxvmiozm50X0RIzUJxgSwSlnRUcCBW_SCNgM6dcSTZLk89uqwqzD9nzh-5uGptuGKBP6TI9zjAgjlBs9au1lJ_23hPMliUcErtf53oN7-rgIHdJQMyH158UfhPe53_t4TRgi-t4cAIj-TTZgUpPf_7Uc-3JorqiaQWnmURy6bmZozDgJLjc-HE9cSn-VJTMBR-WeOJhl02LjJjYRZdwmfX8zNhdIVokY68dl1eidEvYEhqGgHbpQXXs8tnevhS63ncnDXceGITS_TH9qMX6ZhJuGbPkzL8o&acp=AAABW51GfJmWF5_tjUjj8FDCP6ydEsyF5SLquQ'></script>",
+            "target":"_blank",
+            "ts":"1fHJpZD05MDk1ZDYyNi1kNWQwLTQ1ODktYWIwNC00YTIxZDM2MWRmOWZ8cnQ9MTQ5Mjk5MjI5M3xhdWlkPTUzODc5ODc4MXxhdW09RE1JRC5XRUJ8YXVwZj1kaXNwbGF5fHNpZD01MzczMjE5MDF8cHViPTUzNzE0NTk4NHxwYz1VU0R8cmFpZD05ODA3NGZkNS1lMGFhLTRlOWItODk5My0yZjdmZjExYzI0ODB8cnM9MXxjbD0xfGFpZD01MzcxNTMyNjd8dD0xMnxhcz03Mjh4OTB8bGlkPTUzNzEyMjcyOHxvaWQ9NTM3MDk2MzA3fHA9NDA2Mnxwcj0yMjU4fGF0Yj00MTU5fGFkdj01MzcwNzMyOTR8YWM9VVNEfHBtPVBSSUNJTkcuQ1BNfG09MXxhaT0xNTJkMDdiMS1kYTQxLTRjNDAtYWQxOC1mZTc0YzI2OTUzNGF8bWM9R0JQfG1yPTE4MDN8cGk9MTc2MnxtdWk9MjVjNWNhYTMtMjUyYi00ODQzLTRlOTEtMjEwZTBlNTIyZmJkfG1hPTA1MzZkNjI0LWNlNzItNDBmYS1iYjc3LWMzNmRmODY0NWYzZHxtcnQ9MTQ5Mjk5MjI5M3xtcmM9U1JUX1dPTnxtd2E9NTM3MDczMjk0fG13Ymk9Mzg4M3xtd2I9MzI0NXxtYXA9NDA2MnxlbGc9MXxtb2M9VVNEfG1vcj0xODAzfG1wYz1HQlB8bXByPTE3NjJ8bXBmPTE2MDB8bW1mPTEyNDh8bXBuZj0xNjAwfG1tbmY9MTI0OHxwY3Y9MjAxNjA2MjB8bW89T1gtR0J8ZWM9MTYwMzU2NjExMXxtcHU9MjI1OHxtY3A9NDA2MnxhcXQ9cnRifG13Yz01MzcwOTYzMDd8bXdwPTUzNzEyMjcyOHxtd2NyPTUzNzE1MzI2N3xybm49MXxtd2lzPTF8bXdwdD1vcGVucnRiX2pzb258bGl0PVh8Y2k9MXx1cj1qTFFPV3MyWktGfGxkPXRveW90YS5jb20",
+            "type":"html",
+            "ad_url":"<script src='http://presentation-atl1.turn.com/server/ads2.js?pub=6552283&cch=6553230&code=6554547&l=728x90&aid=41410767&ahcid=17288782&uimpd=1uMWS3GE1Z5FU8jXLOe-YryIgpMiJR_Uhnq9euF_V84WQMZuKk6NqgSeCEsFFKnoimc7zkPZlhD6lNvnAK9KEHgVUaa81rE5Va5TPoJV_1Ntn4-ZNPeiesLCUWGi5Q0pMIlxWeHujtiWU4hIRmxZhGDbLcisF5vf52pYjnxx7sgLDq60qaLSM9lSDH_P7r3m2LfHLNhuhT3pi82fEsIKY-zMcLaIqUa9FRu7ru1ABYiORZUuQDEm47i1Tivv6J5HiUDGfolDxxEeK_aGp_BGcLj_qiTZAlqmIP_WgyKecHdMe6wRAUWXXt4cjHDg7-u3hvyplQoRI8iPPMO05KAj12dmamRRrDZEp34NLDky0qzwXwQsSlpxKWOwnR4ICWD6HdrFQCSJfBZVFiNz3B_dJ1WZ697-I3CaWNS3vdVtxa4jAMWh5QL9L8PJYZis-j0gHJuBxhlEEZ3axJxvmiozm50X0RIzUJxgSwSlnRUcCBW_SCNgM6dcSTZLk89uqwqzD9nzh-5uGptuGKBP6TI9zjAgjlBs9au1lJ_23hPMliUcErtf53oN7-rgIHdJQMyH158UfhPe53_t4TRgi-t4cAIj-TTZgUpPf_7Uc-3JorqiaQWnmURy6bmZozDgJLjc-HE9cSn-VJTMBR-WeOJhl02LjJjYRZdwmfX8zNhdIVokY68dl1eidEvYEhqGgHbpQXXs8tnevhS63ncnDXceGITS_TH9qMX6ZhJuGbPkzL8o&acp=AAABW51GfJmWF5_tjUjj8FDCP6ydEsyF5SLquQ'></script>"
+          }
+        ]
+      }
+    ]
+  }
+});
